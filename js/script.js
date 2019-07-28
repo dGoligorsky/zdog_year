@@ -18,8 +18,7 @@ let illo = new Zdog.Illustration({
 
 // Set up a font to use
 var myFont = new Zdog.Font({
-  src: "./assets/kenpixel.ttf"
-  //   src: "https://cdn.jsdelivr.net/gh/jaames/zfont/demo/fredokaone.ttf"
+  src: "https://cdn.jsdelivr.net/gh/jaames/zfont/demo/fredokaone.ttf"
 });
 
 // // circle
