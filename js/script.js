@@ -49,18 +49,18 @@ var text = new Zdog.Text({
   value: "GOLIGORSKY",
   fontSize: 55,
   stroke: 2,
-  color: "#0033cc",
+  color: "#636",
   fill: true,
   textAlign: "center",
-  textBaseline: "middle"
+  textBaseline: "middle",
+  translate: { y: -12 }
 });
 
 // Creating a darker duplicate of the text and pushing it backwards can help make it look like the text has depth
-// (This is entirely optional!)
 var shadow = text.copy({
   addTo: illo,
-  translate: { z: -6 },
-  color: "#aab"
+  translate: { z: -6, y: -12 },
+  color: "#E62"
 });
 
 function animate() {
