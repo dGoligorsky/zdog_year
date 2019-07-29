@@ -21,25 +21,25 @@ var myFont = new Zdog.Font({
   src: "https://cdn.jsdelivr.net/gh/jaames/zfont/demo/fredokaone.ttf"
 });
 
-// // circle
-// new Zdog.Ellipse({
-//   addTo: illo,
-//   diameter: 80,
-//   translate: { x: 400 },
-//   stroke: 20,
-//   color: "#636"
-// });
+// circle
+new Zdog.Ellipse({
+  addTo: illo,
+  diameter: 80,
+  translate: { z: 40 },
+  stroke: 20,
+  color: "#636"
+});
 
-// // square
-// new Zdog.Rect({
-//   addTo: illo,
-//   width: 80,
-//   height: 80,
-//   translate: { z: -40 },
-//   stroke: 12,
-//   color: "#E62",
-//   fill: true
-// });
+// square
+new Zdog.Rect({
+  addTo: illo,
+  width: 80,
+  height: 80,
+  translate: { z: -40 },
+  stroke: 12,
+  color: "#E62",
+  fill: true
+});
 
 // Create a text object
 // This is just a Zdog.Shape object with a couple of extra parameters!
