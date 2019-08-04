@@ -12,7 +12,7 @@ let illo = new Zdog.Illustration({
   resize: "fullscreen",
   onResize: function(width, height) {
     var minSize = Math.min(width, height);
-    this.zoom = minSize / 420;
+    this.zoom = minSize / 400;
   }
 });
 
@@ -27,7 +27,7 @@ new Zdog.Ellipse({
   diameter: 80,
   translate: { z: 40 },
   stroke: 20,
-  color: "#636"
+  color: "#32FF48"
 });
 
 // square
@@ -37,7 +37,7 @@ new Zdog.Rect({
   height: 80,
   translate: { z: -40 },
   stroke: 12,
-  color: "#E62",
+  color: "#32FF48",
   fill: true
 });
 
@@ -49,7 +49,7 @@ var text = new Zdog.Text({
   value: "GOLIGORSKY",
   fontSize: 55,
   stroke: 2,
-  color: "#636",
+  color: "#ffffff",
   fill: true,
   textAlign: "center",
   textBaseline: "middle",
@@ -60,7 +60,7 @@ var text = new Zdog.Text({
 var shadow = text.copy({
   addTo: illo,
   translate: { z: -6, y: -12 },
-  color: "#E62"
+  color: "#ededed"
 });
 
 function animate() {
