@@ -2,6 +2,8 @@
 
 body {
     background: #BFB8A5;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
 }
 
 .zdog-canvas {
@@ -11,35 +13,35 @@ body {
     cursor: move;
 }
 
-footer {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    padding: 0 24px;
-    z-index: 10;
-    pointer-events: none;
-}
-
 p {
-    /* font-family: 'Space Mono', monospace; */
-    /* font-family: 'Schoolbell', cursive; */
-    font-family: 'Inter', sans-serif;
     font-size: 12vw;
-    /* font-weight: bold; */
     line-height: 1.5;
     text-align: center;
 }
 
 @media only screen and (min-width: 600px) {
-    footer {
-        padding: 80px;
-    }
-
     p {
         font-size: 12vw;
     }
+}
+
+.svgstuff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    z-index: 20;
+    pointer-events: none;
+    font-size: 24pt;
+}
+
+svg {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+path {
+    fill: transparent;
 }

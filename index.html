@@ -5,7 +5,7 @@
 <head>
     <title>Happy First Year at IDEO, Lin!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="1 Year at IDEO">
+    <meta name="description" content="Lin's 1 Year IDEOversary!">
     <link rel="stylesheet" type="text/css" href="base.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/zfont/dist/zfont.min.js"></script>
@@ -16,9 +16,16 @@
 
     <canvas class="zdog-canvas"></canvas>
 
-    <footer>
-        <p>Happy First Year at IDEO!</p>
-    </footer>
+    <div class="svgstuff">
+        <svg viewBox="0 0 500 500" class="arcsvg">
+            <path id="curve" d="M0,0, C0,200, 500,200, 500,0" />
+            <text width="500">
+                <textPath xlink:href="#curve" startOffset="50%" text-anchor="middle">
+                    Happy first year at IDEO
+                </textPath>
+            </text>
+        </svg>
+    </div>
 
     <script src="https://unpkg.com/zdog@1/dist/zdog.dist.min.js"></script>
     <script src="js/script.js"></script>
